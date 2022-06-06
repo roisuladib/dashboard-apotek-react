@@ -349,6 +349,8 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Inter',
+        'sans-serif',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',
