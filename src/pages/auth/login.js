@@ -1,7 +1,10 @@
 import React from 'react';
+import { Transitions } from '../../animations'
 
 export const Login = () => {
   return (
-    <div>Login</div>
+    <Transitions>
+      Login
+    </Transitions>
   )
 }

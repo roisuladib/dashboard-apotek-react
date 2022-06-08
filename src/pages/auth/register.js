@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Transitions } from '../../animations';
 
 export const Register = () => {
   return (
-    <div>Register</div>
+    <Transitions>
+      Register
+    </Transitions>
   );
 };

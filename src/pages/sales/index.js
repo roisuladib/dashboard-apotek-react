@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Sidebar, Content } from '../../components';
+import { Transitions } from '../../animations'
 
-import { Sidebar } from '../../components';
-
-const Sale = () => {
+export const Sale = () => {
   return (
-    <>
+    <Transitions>
       <Sidebar />
-      <div>Sales</div>
-    </>
+      <Content>
+        <h1>Sales</h1>
+      </Content>
+    </Transitions>
   )
 }
-
-export default Sale

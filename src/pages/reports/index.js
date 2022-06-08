@@ -1,13 +1,14 @@
-import React from 'react'
-import { Sidebar } from '../../components'
+import React from 'react';
+import { Sidebar, Content } from '../../components';
+import { Transitions } from '../../animations'
 
-const Report = () => {
+export const Report = () => {
   return (
-    <>
+    <Transitions>
       <Sidebar />
-      <div>Report</div>
-    </>
+      <Content>
+        <h1>Report</h1>
+      </Content>
+    </Transitions>
   )
-}
-
-export default Report
+};

@@ -1,0 +1,1 @@
+export { getAll, upload, destroy } from './image';

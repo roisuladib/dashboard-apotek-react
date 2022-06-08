@@ -1,13 +1,16 @@
-import React from 'react'
-import { Sidebar } from '../../components'
+import React from 'react';
+import { Sidebar, Content } from '../../components';
+import { Transitions } from '../../animations';
 
-const Product = () => {
+export const Product = () => {
   return (
-    <>
+    <Transitions>
       <Sidebar />
-      <div>Product</div>
-    </>
+      <Content>
+        <h1>Product</h1>
+      </Content>
+    </Transitions>
   )
 }
 
-export default Product
+export { Category } from './Category';
