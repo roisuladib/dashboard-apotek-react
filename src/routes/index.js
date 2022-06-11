@@ -10,7 +10,8 @@ import {
    Sale, 
    Transaction, 
    User,
-   Assets
+   Assets,
+   CobaPagination
  } from '../pages';
 
 export const GlobalRoutes = () => {
@@ -27,6 +28,7 @@ export const GlobalRoutes = () => {
          <Route path="/transactions" element={<Transaction />} />
          <Route path="/users" element={<User />} />
          <Route path="/assets" element={<Assets />} />
+         <Route path="/pagination" element={<CobaPagination />} />
       </Routes>
    )
 }

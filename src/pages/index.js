@@ -6,3 +6,5 @@ export { Sale } from './sales';
 export { Transaction } from './transactions';
 export { User } from './users';
 export { Assets } from './Assets';
+export { CobaPagination } from './CobaPagination';
+
